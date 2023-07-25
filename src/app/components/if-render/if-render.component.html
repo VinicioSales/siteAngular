@@ -1,0 +1,7 @@
+<p>Isso foi permitido</p>
+<p *ngIf="mostrar; else notAlowed">Amanda!</p>
+<ng-template #notAlowed>
+    <div>
+        <h2>Não permitido!</h2>
+    </div>
+</ng-template>
